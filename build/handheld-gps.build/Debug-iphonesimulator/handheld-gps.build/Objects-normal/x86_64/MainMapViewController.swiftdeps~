@@ -1,0 +1,742 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainMapViewController"
+provides-nominal:
+- "12handheld_gps21MainMapViewControllerC"
+provides-member:
+- ["12handheld_gps21MainMapViewControllerC", ""]
+provides-dynamic-lookup:
+- "didReceiveMemoryWarning"
+- "locationManager"
+- "mapView"
+- "userAlt"
+- "userLat"
+- "userLon"
+- "viewDidLoad"
+depends-top-level:
+- !private "*"
+- !private "/"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CLLocation"
+- !private "CLLocationCoordinate2D"
+- !private "CLLocationCoordinate2DMake"
+- "CLLocationManager"
+- "CLLocationManagerDelegate"
+- !private "MKCoordinateRegion"
+- !private "MKCoordinateRegionMake"
+- !private "MKCoordinateSpan"
+- !private "MKCoordinateSpanMake"
+- "MKMapView"
+- "MainMapViewController"
+- !private "String"
+- !private "StringLiteralType"
+- "UILabel"
+- "UIViewController"
+- !private "kCLLocationAccuracyBest"
+- !private "print"
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["s19BinaryFloatingPointP", "rounded"]
+- !private ["So15CALayerDelegateP", "setRegion"]
+- !private ["So15CALayerDelegateP", "showsUserLocation"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["So10CLLocationC", "altitude"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- ["So17CLLocationManagerC", "init"]
+- !private ["So25CLLocationManagerDelegateP", "CLLocationCoordinate2DMake"]
+- ["So25CLLocationManagerDelegateP", "CLLocationManager"]
+- !private ["So25CLLocationManagerDelegateP", "MKCoordinateRegionMake"]
+- !private ["So25CLLocationManagerDelegateP", "MKCoordinateSpanMake"]
+- !private ["So25CLLocationManagerDelegateP", "String"]
+- ["So25CLLocationManagerDelegateP", ""]
+- !private ["So25CLLocationManagerDelegateP", "kCLLocationAccuracyBest"]
+- ["So25CLLocationManagerDelegateP", "locationManager"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidPauseLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerDidResumeLocationUpdates"]
+- ["So25CLLocationManagerDelegateP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So25CLLocationManagerDelegateP", "mapView"]
+- !private ["So25CLLocationManagerDelegateP", "print"]
+- !private ["So25CLLocationManagerDelegateP", "userAlt"]
+- !private ["So25CLLocationManagerDelegateP", "userLat"]
+- !private ["So25CLLocationManagerDelegateP", "userLon"]
+- !private ["s7CVarArgP", "CLLocationCoordinate2DMake"]
+- ["s7CVarArgP", "CLLocationManager"]
+- !private ["s7CVarArgP", "MKCoordinateRegionMake"]
+- !private ["s7CVarArgP", "MKCoordinateSpanMake"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "altitude"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCLLocationAccuracyBest"]
+- ["s7CVarArgP", "locationManager"]
+- ["s7CVarArgP", "locationManagerDidPauseLocationUpdates"]
+- ["s7CVarArgP", "locationManagerDidResumeLocationUpdates"]
+- ["s7CVarArgP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s7CVarArgP", "mapView"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "rounded"]
+- !private ["s7CVarArgP", "setRegion"]
+- !private ["s7CVarArgP", "showsUserLocation"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "userAlt"]
+- !private ["s7CVarArgP", "userLat"]
+- !private ["s7CVarArgP", "userLon"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "rounded"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocationCoordinate2DMake"]
+- ["s28CustomDebugStringConvertibleP", "CLLocationManager"]
+- !private ["s28CustomDebugStringConvertibleP", "MKCoordinateRegionMake"]
+- !private ["s28CustomDebugStringConvertibleP", "MKCoordinateSpanMake"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "altitude"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCLLocationAccuracyBest"]
+- ["s28CustomDebugStringConvertibleP", "locationManager"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s28CustomDebugStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s28CustomDebugStringConvertibleP", "mapView"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "rounded"]
+- !private ["s28CustomDebugStringConvertibleP", "setRegion"]
+- !private ["s28CustomDebugStringConvertibleP", "showsUserLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "userAlt"]
+- !private ["s28CustomDebugStringConvertibleP", "userLat"]
+- !private ["s28CustomDebugStringConvertibleP", "userLon"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "rounded"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "rounded"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "CLLocationCoordinate2DMake"]
+- ["s23CustomStringConvertibleP", "CLLocationManager"]
+- !private ["s23CustomStringConvertibleP", "MKCoordinateRegionMake"]
+- !private ["s23CustomStringConvertibleP", "MKCoordinateSpanMake"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "altitude"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCLLocationAccuracyBest"]
+- ["s23CustomStringConvertibleP", "locationManager"]
+- ["s23CustomStringConvertibleP", "locationManagerDidPauseLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerDidResumeLocationUpdates"]
+- ["s23CustomStringConvertibleP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s23CustomStringConvertibleP", "mapView"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "rounded"]
+- !private ["s23CustomStringConvertibleP", "setRegion"]
+- !private ["s23CustomStringConvertibleP", "showsUserLocation"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "userAlt"]
+- !private ["s23CustomStringConvertibleP", "userLat"]
+- !private ["s23CustomStringConvertibleP", "userLon"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "rounded"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["Sd", "rounded"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "rounded"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "CLLocationCoordinate2DMake"]
+- ["s9EquatableP", "CLLocationManager"]
+- !private ["s9EquatableP", "MKCoordinateRegionMake"]
+- !private ["s9EquatableP", "MKCoordinateSpanMake"]
+- !private ["s9EquatableP", "String"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "altitude"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "kCLLocationAccuracyBest"]
+- ["s9EquatableP", "locationManager"]
+- ["s9EquatableP", "locationManagerDidPauseLocationUpdates"]
+- ["s9EquatableP", "locationManagerDidResumeLocationUpdates"]
+- ["s9EquatableP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s9EquatableP", "mapView"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "rounded"]
+- !private ["s9EquatableP", "setRegion"]
+- !private ["s9EquatableP", "showsUserLocation"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "userAlt"]
+- !private ["s9EquatableP", "userLat"]
+- !private ["s9EquatableP", "userLon"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "rounded"]
+- !private ["s27ExpressibleByIntegerLiteralP", "rounded"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s13FloatingPointP", "rounded"]
+- !private ["s8HashableP", "CLLocationCoordinate2DMake"]
+- ["s8HashableP", "CLLocationManager"]
+- !private ["s8HashableP", "MKCoordinateRegionMake"]
+- !private ["s8HashableP", "MKCoordinateSpanMake"]
+- !private ["s8HashableP", "String"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "altitude"]
+- !private ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "kCLLocationAccuracyBest"]
+- ["s8HashableP", "locationManager"]
+- ["s8HashableP", "locationManagerDidPauseLocationUpdates"]
+- ["s8HashableP", "locationManagerDidResumeLocationUpdates"]
+- ["s8HashableP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["s8HashableP", "mapView"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "rounded"]
+- !private ["s8HashableP", "setRegion"]
+- !private ["s8HashableP", "showsUserLocation"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "userAlt"]
+- !private ["s8HashableP", "userLat"]
+- !private ["s8HashableP", "userLon"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "rounded"]
+- !private ["So9MKMapViewC", "setRegion"]
+- !private ["So9MKMapViewC", "showsUserLocation"]
+- ["12handheld_gps21MainMapViewControllerC", "CLLocation"]
+- !private ["12handheld_gps21MainMapViewControllerC", "CLLocationCoordinate2D"]
+- !private ["12handheld_gps21MainMapViewControllerC", "CLLocationCoordinate2DMake"]
+- ["12handheld_gps21MainMapViewControllerC", "CLLocationManager"]
+- !private ["12handheld_gps21MainMapViewControllerC", "MKCoordinateRegion"]
+- !private ["12handheld_gps21MainMapViewControllerC", "MKCoordinateRegionMake"]
+- !private ["12handheld_gps21MainMapViewControllerC", "MKCoordinateSpan"]
+- !private ["12handheld_gps21MainMapViewControllerC", "MKCoordinateSpanMake"]
+- ["12handheld_gps21MainMapViewControllerC", "MKMapView"]
+- !private ["12handheld_gps21MainMapViewControllerC", "String"]
+- ["12handheld_gps21MainMapViewControllerC", "UILabel"]
+- ["12handheld_gps21MainMapViewControllerC", "deinit"]
+- ["12handheld_gps21MainMapViewControllerC", "didReceiveMemoryWarning"]
+- ["12handheld_gps21MainMapViewControllerC", "init"]
+- !private ["12handheld_gps21MainMapViewControllerC", "kCLLocationAccuracyBest"]
+- ["12handheld_gps21MainMapViewControllerC", "locationManager"]
+- ["12handheld_gps21MainMapViewControllerC", "locationManagerDidPauseLocationUpdates"]
+- ["12handheld_gps21MainMapViewControllerC", "locationManagerDidResumeLocationUpdates"]
+- ["12handheld_gps21MainMapViewControllerC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["12handheld_gps21MainMapViewControllerC", "mapView"]
+- !private ["12handheld_gps21MainMapViewControllerC", "print"]
+- ["12handheld_gps21MainMapViewControllerC", "userAlt"]
+- ["12handheld_gps21MainMapViewControllerC", "userLat"]
+- ["12handheld_gps21MainMapViewControllerC", "userLon"]
+- ["12handheld_gps21MainMapViewControllerC", "viewDidLoad"]
+- !private ["10Foundation11MeasurementV", "rounded"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "CLLocationCoordinate2DMake"]
+- ["So8NSCodingP", "CLLocationManager"]
+- !private ["So8NSCodingP", "MKCoordinateRegionMake"]
+- !private ["So8NSCodingP", "MKCoordinateSpanMake"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "altitude"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "kCLLocationAccuracyBest"]
+- ["So8NSCodingP", "locationManager"]
+- ["So8NSCodingP", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSCodingP", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSCodingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So8NSCodingP", "mapView"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "setRegion"]
+- !private ["So8NSCodingP", "showsUserLocation"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "userAlt"]
+- !private ["So8NSCodingP", "userLat"]
+- !private ["So8NSCodingP", "userLon"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "altitude"]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So26NSExtensionRequestHandlingP", "CLLocationCoordinate2DMake"]
+- ["So26NSExtensionRequestHandlingP", "CLLocationManager"]
+- !private ["So26NSExtensionRequestHandlingP", "MKCoordinateRegionMake"]
+- !private ["So26NSExtensionRequestHandlingP", "MKCoordinateSpanMake"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "kCLLocationAccuracyBest"]
+- ["So26NSExtensionRequestHandlingP", "locationManager"]
+- ["So26NSExtensionRequestHandlingP", "locationManagerDidPauseLocationUpdates"]
+- ["So26NSExtensionRequestHandlingP", "locationManagerDidResumeLocationUpdates"]
+- ["So26NSExtensionRequestHandlingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So26NSExtensionRequestHandlingP", "mapView"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "userAlt"]
+- !private ["So26NSExtensionRequestHandlingP", "userLat"]
+- !private ["So26NSExtensionRequestHandlingP", "userLon"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "CLLocation"]
+- !private ["So8NSObjectC", "CLLocationCoordinate2D"]
+- !private ["So8NSObjectC", "CLLocationCoordinate2DMake"]
+- ["So8NSObjectC", "CLLocationManager"]
+- !private ["So8NSObjectC", "MKCoordinateRegion"]
+- !private ["So8NSObjectC", "MKCoordinateRegionMake"]
+- !private ["So8NSObjectC", "MKCoordinateSpan"]
+- !private ["So8NSObjectC", "MKCoordinateSpanMake"]
+- ["So8NSObjectC", "MKMapView"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UILabel"]
+- !private ["So8NSObjectC", "altitude"]
+- !private ["So8NSObjectC", "coordinate"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "kCLLocationAccuracyBest"]
+- ["So8NSObjectC", "locationManager"]
+- ["So8NSObjectC", "locationManagerDidPauseLocationUpdates"]
+- ["So8NSObjectC", "locationManagerDidResumeLocationUpdates"]
+- ["So8NSObjectC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["So8NSObjectC", "mapView"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "setRegion"]
+- !private ["So8NSObjectC", "showsUserLocation"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "userAlt"]
+- ["So8NSObjectC", "userLat"]
+- ["So8NSObjectC", "userLon"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "CLLocationCoordinate2DMake"]
+- ["So16NSObjectProtocolP", "CLLocationManager"]
+- !private ["So16NSObjectProtocolP", "MKCoordinateRegionMake"]
+- !private ["So16NSObjectProtocolP", "MKCoordinateSpanMake"]
+- !private ["So16NSObjectProtocolP", "String"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "altitude"]
+- !private ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "kCLLocationAccuracyBest"]
+- ["So16NSObjectProtocolP", "locationManager"]
+- ["So16NSObjectProtocolP", "locationManagerDidPauseLocationUpdates"]
+- ["So16NSObjectProtocolP", "locationManagerDidResumeLocationUpdates"]
+- ["So16NSObjectProtocolP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So16NSObjectProtocolP", "mapView"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "setRegion"]
+- !private ["So16NSObjectProtocolP", "showsUserLocation"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "userAlt"]
+- !private ["So16NSObjectProtocolP", "userLat"]
+- !private ["So16NSObjectProtocolP", "userLon"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "altitude"]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["s7NumericP", "rounded"]
+- !private ["s22RandomAccessCollectionP", "subscript"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "rounded"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s13SignedNumericP", "rounded"]
+- !private ["s10StrideableP", "rounded"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setRegion"]
+- !private ["So29UIAccessibilityIdentificationP", "showsUserLocation"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "setRegion"]
+- !private ["So12UIAppearanceP", "showsUserLocation"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "CLLocationCoordinate2DMake"]
+- ["So21UIAppearanceContainerP", "CLLocationManager"]
+- !private ["So21UIAppearanceContainerP", "MKCoordinateRegionMake"]
+- !private ["So21UIAppearanceContainerP", "MKCoordinateSpanMake"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "kCLLocationAccuracyBest"]
+- ["So21UIAppearanceContainerP", "locationManager"]
+- ["So21UIAppearanceContainerP", "locationManagerDidPauseLocationUpdates"]
+- ["So21UIAppearanceContainerP", "locationManagerDidResumeLocationUpdates"]
+- ["So21UIAppearanceContainerP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So21UIAppearanceContainerP", "mapView"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "setRegion"]
+- !private ["So21UIAppearanceContainerP", "showsUserLocation"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "userAlt"]
+- !private ["So21UIAppearanceContainerP", "userLat"]
+- !private ["So21UIAppearanceContainerP", "userLon"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "CLLocationCoordinate2DMake"]
+- ["So18UIContentContainerP", "CLLocationManager"]
+- !private ["So18UIContentContainerP", "MKCoordinateRegionMake"]
+- !private ["So18UIContentContainerP", "MKCoordinateSpanMake"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "kCLLocationAccuracyBest"]
+- ["So18UIContentContainerP", "locationManager"]
+- ["So18UIContentContainerP", "locationManagerDidPauseLocationUpdates"]
+- ["So18UIContentContainerP", "locationManagerDidResumeLocationUpdates"]
+- ["So18UIContentContainerP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So18UIContentContainerP", "mapView"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "userAlt"]
+- !private ["So18UIContentContainerP", "userLat"]
+- !private ["So18UIContentContainerP", "userLon"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So17UICoordinateSpaceP", "setRegion"]
+- !private ["So17UICoordinateSpaceP", "showsUserLocation"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "setRegion"]
+- !private ["So13UIDynamicItemP", "showsUserLocation"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "CLLocationCoordinate2DMake"]
+- ["So18UIFocusEnvironmentP", "CLLocationManager"]
+- !private ["So18UIFocusEnvironmentP", "MKCoordinateRegionMake"]
+- !private ["So18UIFocusEnvironmentP", "MKCoordinateSpanMake"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "kCLLocationAccuracyBest"]
+- ["So18UIFocusEnvironmentP", "locationManager"]
+- ["So18UIFocusEnvironmentP", "locationManagerDidPauseLocationUpdates"]
+- ["So18UIFocusEnvironmentP", "locationManagerDidResumeLocationUpdates"]
+- ["So18UIFocusEnvironmentP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So18UIFocusEnvironmentP", "mapView"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "setRegion"]
+- !private ["So18UIFocusEnvironmentP", "showsUserLocation"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "userAlt"]
+- !private ["So18UIFocusEnvironmentP", "userLat"]
+- !private ["So18UIFocusEnvironmentP", "userLon"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "setRegion"]
+- !private ["So11UIFocusItemP", "showsUserLocation"]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So7UILabelC", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "CLLocationCoordinate2DMake"]
+- ["So30UIPasteConfigurationSupportingP", "CLLocationManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateRegionMake"]
+- !private ["So30UIPasteConfigurationSupportingP", "MKCoordinateSpanMake"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "kCLLocationAccuracyBest"]
+- ["So30UIPasteConfigurationSupportingP", "locationManager"]
+- ["So30UIPasteConfigurationSupportingP", "locationManagerDidPauseLocationUpdates"]
+- ["So30UIPasteConfigurationSupportingP", "locationManagerDidResumeLocationUpdates"]
+- ["So30UIPasteConfigurationSupportingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So30UIPasteConfigurationSupportingP", "mapView"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "setRegion"]
+- !private ["So30UIPasteConfigurationSupportingP", "showsUserLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "userAlt"]
+- !private ["So30UIPasteConfigurationSupportingP", "userLat"]
+- !private ["So30UIPasteConfigurationSupportingP", "userLon"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "CLLocation"]
+- !private ["So11UIResponderC", "CLLocationCoordinate2D"]
+- !private ["So11UIResponderC", "CLLocationCoordinate2DMake"]
+- ["So11UIResponderC", "CLLocationManager"]
+- !private ["So11UIResponderC", "MKCoordinateRegion"]
+- !private ["So11UIResponderC", "MKCoordinateRegionMake"]
+- !private ["So11UIResponderC", "MKCoordinateSpan"]
+- !private ["So11UIResponderC", "MKCoordinateSpanMake"]
+- ["So11UIResponderC", "MKMapView"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "kCLLocationAccuracyBest"]
+- ["So11UIResponderC", "locationManager"]
+- ["So11UIResponderC", "locationManagerDidPauseLocationUpdates"]
+- ["So11UIResponderC", "locationManagerDidResumeLocationUpdates"]
+- ["So11UIResponderC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["So11UIResponderC", "mapView"]
+- !private ["So11UIResponderC", "print"]
+- !private ["So11UIResponderC", "setRegion"]
+- !private ["So11UIResponderC", "showsUserLocation"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "userAlt"]
+- ["So11UIResponderC", "userLat"]
+- ["So11UIResponderC", "userLon"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CLLocationCoordinate2DMake"]
+- ["So30UIResponderStandardEditActionsP", "CLLocationManager"]
+- !private ["So30UIResponderStandardEditActionsP", "MKCoordinateRegionMake"]
+- !private ["So30UIResponderStandardEditActionsP", "MKCoordinateSpanMake"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "kCLLocationAccuracyBest"]
+- ["So30UIResponderStandardEditActionsP", "locationManager"]
+- ["So30UIResponderStandardEditActionsP", "locationManagerDidPauseLocationUpdates"]
+- ["So30UIResponderStandardEditActionsP", "locationManagerDidResumeLocationUpdates"]
+- ["So30UIResponderStandardEditActionsP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So30UIResponderStandardEditActionsP", "mapView"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "setRegion"]
+- !private ["So30UIResponderStandardEditActionsP", "showsUserLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "userAlt"]
+- !private ["So30UIResponderStandardEditActionsP", "userLat"]
+- !private ["So30UIResponderStandardEditActionsP", "userLon"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "CLLocationCoordinate2DMake"]
+- ["So16UIStateRestoringP", "CLLocationManager"]
+- !private ["So16UIStateRestoringP", "MKCoordinateRegionMake"]
+- !private ["So16UIStateRestoringP", "MKCoordinateSpanMake"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "kCLLocationAccuracyBest"]
+- ["So16UIStateRestoringP", "locationManager"]
+- ["So16UIStateRestoringP", "locationManagerDidPauseLocationUpdates"]
+- ["So16UIStateRestoringP", "locationManagerDidResumeLocationUpdates"]
+- ["So16UIStateRestoringP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So16UIStateRestoringP", "mapView"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "userAlt"]
+- !private ["So16UIStateRestoringP", "userLat"]
+- !private ["So16UIStateRestoringP", "userLon"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "CLLocationCoordinate2DMake"]
+- ["So18UITraitEnvironmentP", "CLLocationManager"]
+- !private ["So18UITraitEnvironmentP", "MKCoordinateRegionMake"]
+- !private ["So18UITraitEnvironmentP", "MKCoordinateSpanMake"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "kCLLocationAccuracyBest"]
+- ["So18UITraitEnvironmentP", "locationManager"]
+- ["So18UITraitEnvironmentP", "locationManagerDidPauseLocationUpdates"]
+- ["So18UITraitEnvironmentP", "locationManagerDidResumeLocationUpdates"]
+- ["So18UITraitEnvironmentP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["So18UITraitEnvironmentP", "mapView"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "setRegion"]
+- !private ["So18UITraitEnvironmentP", "showsUserLocation"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "userAlt"]
+- !private ["So18UITraitEnvironmentP", "userLat"]
+- !private ["So18UITraitEnvironmentP", "userLon"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "setRegion"]
+- !private ["So6UIViewC", "showsUserLocation"]
+- !private ["So6UIViewC", "text"]
+- ["So16UIViewControllerC", "CLLocation"]
+- !private ["So16UIViewControllerC", "CLLocationCoordinate2D"]
+- !private ["So16UIViewControllerC", "CLLocationCoordinate2DMake"]
+- ["So16UIViewControllerC", "CLLocationManager"]
+- !private ["So16UIViewControllerC", "MKCoordinateRegion"]
+- !private ["So16UIViewControllerC", "MKCoordinateRegionMake"]
+- !private ["So16UIViewControllerC", "MKCoordinateSpan"]
+- !private ["So16UIViewControllerC", "MKCoordinateSpanMake"]
+- ["So16UIViewControllerC", "MKMapView"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UILabel"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "kCLLocationAccuracyBest"]
+- ["So16UIViewControllerC", "locationManager"]
+- ["So16UIViewControllerC", "locationManagerDidPauseLocationUpdates"]
+- ["So16UIViewControllerC", "locationManagerDidResumeLocationUpdates"]
+- ["So16UIViewControllerC", "locationManagerShouldDisplayHeadingCalibration"]
+- ["So16UIViewControllerC", "mapView"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "userAlt"]
+- ["So16UIViewControllerC", "userLat"]
+- ["So16UIViewControllerC", "userLon"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "rounded"]
+- !private ["s22_CVarArgPassedAsDoubleP", "rounded"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setRegion"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "showsUserLocation"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "rounded"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "rounded"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationCoordinate2DMake"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "CLLocationManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateRegionMake"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MKCoordinateSpanMake"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "altitude"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCLLocationAccuracyBest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManager"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidPauseLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerDidResumeLocationUpdates"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "locationManagerShouldDisplayHeadingCalibration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mapView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setRegion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "showsUserLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userAlt"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userLat"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userLon"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s21_ObjectiveCBridgeableP", "rounded"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s19BinaryFloatingPointP"
+- !private "So15CALayerDelegateP"
+- !private "So10CLLocationC"
+- !private "SC22CLLocationCoordinate2DV"
+- "So17CLLocationManagerC"
+- "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "Sd"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s13FloatingPointP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So9MKMapViewC"
+- "12handheld_gps21MainMapViewControllerC"
+- !private "10Foundation11MeasurementV"
+- !private "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "s7NumericP"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s13SignedNumericP"
+- !private "s10StrideableP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So7UILabelC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "b92ce4583a161c817b78e3f5fe1e577f"

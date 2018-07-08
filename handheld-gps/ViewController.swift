@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var mapViewButtonVar: UIButton!
 
+    @IBAction func mapViewClick(_ sender: Any) {
+        performSegue(withIdentifier: "mapViewSegue", sender: self)
+    }
 }
 

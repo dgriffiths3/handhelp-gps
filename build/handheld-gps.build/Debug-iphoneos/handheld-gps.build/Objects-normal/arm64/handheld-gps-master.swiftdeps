@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "bf7182b25dced5880a95b419cb0c59b1"
+build_time: [1531083250, 375499000]
+inputs:
+  "/Users/davidgriffiths/Documents/xcode/handheld-gps/handheld-gps/MainMapViewController.swift": [1531082655, 0]
+  "/Users/davidgriffiths/Documents/xcode/handheld-gps/handheld-gps/ViewController.swift": [1531064867, 0]
+  "/Users/davidgriffiths/Documents/xcode/handheld-gps/handheld-gps/AppDelegate.swift": [1531063917, 0]
