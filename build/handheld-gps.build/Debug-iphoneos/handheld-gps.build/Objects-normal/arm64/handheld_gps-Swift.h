@@ -204,12 +204,13 @@ SWIFT_CLASS("_TtC12handheld_gps11AppDelegate")
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC12handheld_gps21MainMapViewController")
-@interface MainMapViewController : UIViewController <CLLocationManagerDelegate>
+SWIFT_CLASS("_TtC12handheld_gps17MapViewController")
+@interface MapViewController : UIViewController <CLLocationManagerDelegate>
 @property (nonatomic, weak) IBOutlet MKMapView * _Null_unspecified mapView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userLat;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userLon;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userAlt;
+- (IBAction)locateMeButton:(id _Nonnull)sender;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
@@ -217,14 +218,28 @@ SWIFT_CLASS("_TtC12handheld_gps21MainMapViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIButton;
 
-SWIFT_CLASS("_TtC12handheld_gps14ViewController")
-@interface ViewController : UIViewController
+SWIFT_CLASS("_TtC12handheld_gps18PageViewController")
+@interface PageViewController : UIPageViewController <UIPageViewControllerDataSource, UIPageViewControllerDelegate>
+- (void)viewDidLoad;
+- (UIViewController * _Nullable)pageViewController:(UIPageViewController * _Nonnull)pageViewController viewControllerBeforeViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+- (UIViewController * _Nullable)pageViewController:(UIPageViewController * _Nonnull)pageViewController viewControllerAfterViewController:(UIViewController * _Nonnull)viewController SWIFT_WARN_UNUSED_RESULT;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithTransitionStyle:(UIPageViewControllerTransitionStyle)style navigationOrientation:(UIPageViewControllerNavigationOrientation)navigationOrientation options:(NSDictionary<NSString *, id> * _Nullable)options OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC12handheld_gps18TextViewController")
+@interface TextViewController : UIViewController <CLLocationManagerDelegate>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userLat;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userLon;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified userAlt;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified twoDQC;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified threeDQC;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified mapViewButtonVar;
-- (IBAction)mapViewClick:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

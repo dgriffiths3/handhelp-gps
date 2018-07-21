@@ -7,26 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		333D33A421037CB800D9247E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D33A321037CB800D9247E /* PageViewController.swift */; };
+		333D33A6210386B700D9247E /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333D33A5210386B700D9247E /* TextViewController.swift */; };
 		33575F1720F265ED003D29D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33575F1620F265ED003D29D9 /* AppDelegate.swift */; };
-		33575F1920F265ED003D29D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33575F1820F265ED003D29D9 /* ViewController.swift */; };
 		33575F1C20F265ED003D29D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33575F1A20F265ED003D29D9 /* Main.storyboard */; };
 		33575F1F20F265ED003D29D9 /* handheld_gps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33575F1D20F265ED003D29D9 /* handheld_gps.xcdatamodeld */; };
 		33575F2120F265EF003D29D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33575F2020F265EF003D29D9 /* Assets.xcassets */; };
 		33575F2420F265F0003D29D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33575F2220F265F0003D29D9 /* LaunchScreen.storyboard */; };
-		33575F2C20F266B0003D29D9 /* MainMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33575F2B20F266B0003D29D9 /* MainMapViewController.swift */; };
+		33575F2C20F266B0003D29D9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33575F2B20F266B0003D29D9 /* MapViewController.swift */; };
 		33575F2F20F2A753003D29D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33575F2E20F2A753003D29D9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		333D33A321037CB800D9247E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		333D33A5210386B700D9247E /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		33575F1320F265ED003D29D9 /* handheld-gps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "handheld-gps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33575F1620F265ED003D29D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		33575F1820F265ED003D29D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33575F1B20F265ED003D29D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33575F1E20F265ED003D29D9 /* handheld_gps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = handheld_gps.xcdatamodel; sourceTree = "<group>"; };
 		33575F2020F265EF003D29D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33575F2320F265F0003D29D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33575F2520F265F0003D29D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33575F2B20F266B0003D29D9 /* MainMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMapViewController.swift; sourceTree = "<group>"; };
+		33575F2B20F266B0003D29D9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		33575F2E20F2A753003D29D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -62,9 +64,10 @@
 		33575F1520F265ED003D29D9 /* handheld-gps */ = {
 			isa = PBXGroup;
 			children = (
+				333D33A321037CB800D9247E /* PageViewController.swift */,
 				33575F1620F265ED003D29D9 /* AppDelegate.swift */,
-				33575F1820F265ED003D29D9 /* ViewController.swift */,
-				33575F2B20F266B0003D29D9 /* MainMapViewController.swift */,
+				33575F2B20F266B0003D29D9 /* MapViewController.swift */,
+				333D33A5210386B700D9247E /* TextViewController.swift */,
 				33575F1A20F265ED003D29D9 /* Main.storyboard */,
 				33575F2020F265EF003D29D9 /* Assets.xcassets */,
 				33575F2220F265F0003D29D9 /* LaunchScreen.storyboard */,
@@ -153,10 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33575F2C20F266B0003D29D9 /* MainMapViewController.swift in Sources */,
-				33575F1920F265ED003D29D9 /* ViewController.swift in Sources */,
+				333D33A6210386B700D9247E /* TextViewController.swift in Sources */,
+				33575F2C20F266B0003D29D9 /* MapViewController.swift in Sources */,
 				33575F1720F265ED003D29D9 /* AppDelegate.swift in Sources */,
 				33575F1F20F265ED003D29D9 /* handheld_gps.xcdatamodeld in Sources */,
+				333D33A421037CB800D9247E /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
